@@ -1,0 +1,2 @@
+
+#allow system_server sysfs:file { getattr open read };

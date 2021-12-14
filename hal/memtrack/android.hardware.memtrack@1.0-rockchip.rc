@@ -1,0 +1,4 @@
+service vendor.memtrack-hal /vendor/bin/hw/android.hardware.memtrack@1.0-service.rockchip
+    class hal
+    user system
+    group system

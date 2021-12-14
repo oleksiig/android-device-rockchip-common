@@ -1,0 +1,38 @@
+/dev/block/mmcblk2                                                      u:object_r:root_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/boot                         u:object_r:boot_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/metadata                     u:object_r:metadata_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/frp                          u:object_r:frp_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/misc                         u:object_r:misc_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/system                       u:object_r:system_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/cache                        u:object_r:cache_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/vendor                       u:object_r:system_block_device:s0
+/dev/block/platform/fe330000.sdhci/by-name/userdata                     u:object_r:userdata_block_device:s0
+
+/dev/mali0                                                              u:object_r:gpu_device:s0
+/dev/dri/card0                                                          u:object_r:gpu_device:s0
+/dev/dri/renderD128                                                     u:object_r:gpu_device:s0
+/dev/graphics/fb0                                                       u:object_r:gpu_device:s0
+
+/dev/rtc0                                                               u:object_r:rtc_device:s0
+/dev/gnss0                                                              u:object_r:serial_device:s0
+
+/vendor/bin/hw/android.hardware.gatekeeper@1.0-service.rockchip         u:object_r:hal_gatekeeper_default_exec:s0
+/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service.rockchip u:object_r:hal_graphics_allocator_default_exec:s0
+/vendor/bin/hw/android.hardware.graphics.mapper@4.0-service.rockchip    u:object_r:hal_graphics_allocator_default_exec:s0
+/vendor/bin/hw/android.hardware.memtrack@1.0-service.rockchip           u:object_r:hal_memtrack_default_exec:s0
+/vendor/bin/hw/android.hardware.health@2.0-service.rockchip             u:object_r:hal_health_default_exec:s0
+/vendor/bin/hw/android.hardware.power@1.0-service.rockchip              u:object_r:hal_power_default_exec:s0
+
+/vendor/lib(64)?/libdrm.so                                              u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libdrm_rockchip.so                                     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libgralloc_drm.so                                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/egl/libGLES_mali.so                                    u:object_r:same_process_hal_file:s0
+
+/vendor/lib(64)?/hw/gralloc.rk3399.so                                   u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/hwcomposer.rk3399.so                                u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/android.hardware.graphics.allocator@2.0-impl.so     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/android.hardware.renderscript@1.0-impl.so           u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/android.hardware.audio.effect@4.0-impl.so           u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/android.hardware.drm@1.0-impl.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/hw/android.hardware.keymaster@3.0-impl.so              u:object_r:same_process_hal_file:s0

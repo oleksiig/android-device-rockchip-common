@@ -1,0 +1,15 @@
+
+dontaudit hal_graphics_composer_default debugfs_sync:dir search;
+dontaudit hal_graphics_composer_default debugfs_sync:file { open ioctl read write };
+
+allow hal_graphics_composer_default self:netlink_kobject_uevent_socket { create bind read };
+allow hal_graphics_composer_default init:unix_stream_socket connectto;
+allow hal_graphics_composer_default property_socket:sock_file write;
+
+allow hal_graphics_composer_default video_device:chr_file { ioctl open read write };
+allow hal_graphics_composer_default vndbinder_device:chr_file { ioctl map open read write };
+
+allow hal_graphics_composer_default gralloc_prop:file { getattr map open read };
+allow hal_graphics_composer_default gralloc_prop:property_service set;
+allow hal_graphics_composer_default hwcomposer_prop:file { getattr map open read };
+allow hal_graphics_composer_default hwcomposer_prop:property_service set;

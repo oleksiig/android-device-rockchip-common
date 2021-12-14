@@ -1,0 +1,4 @@
+service vendor.health-hal /vendor/bin/hw/android.hardware.health@2.0-service.rockchip
+    class hal
+    user system
+    group system
