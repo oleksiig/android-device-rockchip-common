@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq (,$(filter $(TARGET_PRODUCT), x3399headunit x3399evk))
+ifneq (,$(filter $(TARGET_PRODUCT),rockpro64 x3399headunit x3399evk))
 ifneq ($(strip $(TARGET_NO_KERNEL)),true)
 
 ifeq ($(BOARD_KERNEL_TOOLCHAIN),)
