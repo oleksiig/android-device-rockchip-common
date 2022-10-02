@@ -1,4 +1,0 @@
-service vendor.audioeffect-hal /vendor/bin/hw/android.hardware.audio.effect@4.0-service
-    class hal
-    user audioserver
-    group audio drmrpc media mediadrm

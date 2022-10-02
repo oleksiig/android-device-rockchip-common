@@ -13,9 +13,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.audio.effect@4.0-service",
+    name: "android.hardware.audio.effect@4.0-service.rockchip",
 
-    init_rc: ["android.hardware.audio.effect@4.0-service.rc"],
+    init_rc: ["android.hardware.audio.effect@4.0-service.rockchip.rc"],
     vintf_fragments: ["android.hardware.audio.effect@4.0.xml"],
 
     relative_install_path: "hw",
