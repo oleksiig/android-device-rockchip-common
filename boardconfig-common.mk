@@ -80,3 +80,7 @@ BOARD_USES_METADATA_PARTITION := true
 # Set overlays
 DEVICE_PACKAGE_OVERLAYS += device/rockchip/common/overlay
 DEVICE_PACKAGE_OVERLAYS += device/rockchip/$(TARGET_DEVICE)/overlay
+
+# Vendor Interface Manifest
+DEVICE_MANIFEST_FILE := device/rockchip/$(TARGET_DEVICE)/manifest.xml
+DEVICE_MATRIX_FILE := device/rockchip/$(TARGET_DEVICE)/compatibility_matrix.xml
