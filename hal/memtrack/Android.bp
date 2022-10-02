@@ -17,8 +17,8 @@
 cc_binary {
     name: "android.hardware.memtrack@1.0-service.rockchip",
 
-    init_rc: ["android.hardware.memtrack@1.0-rockchip.rc"],
-    vintf_fragments: ["android.hardware.memtrack@1.0-rockchip.xml"],
+    init_rc: ["android.hardware.memtrack@1.0-service.rockchip.rc"],
+    vintf_fragments: ["android.hardware.memtrack@1.0.xml"],
 
     relative_install_path: "hw",
     proprietary: true,
