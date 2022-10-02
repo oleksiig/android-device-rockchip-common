@@ -1,0 +1,2 @@
+type gralloc_prop, property_type;
+type hwcomposer_prop, property_type;

@@ -1,0 +1,3 @@
+vendor.gralloc.                                   u:object_r:gralloc_prop:s0
+vendor.hwc.                                       u:object_r:hwcomposer_prop:s0
+persist.vendor.hwc.                               u:object_r:hwcomposer_prop:s0
