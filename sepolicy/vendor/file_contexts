@@ -14,14 +14,6 @@
 /dev/graphics/fb0                                                       u:object_r:gpu_device:s0
 
 /dev/rtc0                                                               u:object_r:rtc_device:s0
-/dev/gnss0                                                              u:object_r:serial_device:s0
-
-/vendor/bin/hw/android.hardware.gatekeeper@1.0-service.rockchip         u:object_r:hal_gatekeeper_default_exec:s0
-/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service.rockchip u:object_r:hal_graphics_allocator_default_exec:s0
-/vendor/bin/hw/android.hardware.graphics.mapper@4.0-service.rockchip    u:object_r:hal_graphics_allocator_default_exec:s0
-/vendor/bin/hw/android.hardware.memtrack@1.0-service.rockchip           u:object_r:hal_memtrack_default_exec:s0
-/vendor/bin/hw/android.hardware.health@2.0-service.rockchip             u:object_r:hal_health_default_exec:s0
-/vendor/bin/hw/android.hardware.power@1.0-service.rockchip              u:object_r:hal_power_default_exec:s0
 
 /vendor/lib(64)?/libdrm.so                                              u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libdrm_rockchip.so                                     u:object_r:same_process_hal_file:s0
