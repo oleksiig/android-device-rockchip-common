@@ -1,2 +1,9 @@
 type gralloc_prop, property_type;
 type hwcomposer_prop, property_type;
+
+allow bootanim gralloc_prop:file { getattr map open read };
+allow platform_app gralloc_prop:file { getattr map open read };
+allow priv_app gralloc_prop:file { getattr map open read };
+allow surfaceflinger gralloc_prop:file { getattr map open read };
+allow system_app gralloc_prop:file { getattr map open read };
+allow system_server gralloc_prop:file { getattr map open read };
