@@ -5,4 +5,8 @@ genfscon sysfs   /devices/platform/ff3c0000.i2c/i2c-0/0-001b/rk808-rtc/rtc/rtc0 
 genfscon sysfs   /devices/platform/ff3c0000.i2c/i2c-0/0-001b/rk808-rtc/rtc/rtc0/wakeup2      u:object_r:sysfs_wakeup:s0
 genfscon sysfs   /devices/platform/ff3c0000.i2c/i2c-0/0-001b/rk808-rtc/wakeup/wakeup1        u:object_r:sysfs_wakeup:s0
 genfscon sysfs   /devices/platform/ff3c0000.i2c/i2c-0/0-001b/wakeup/wakeup0                  u:object_r:sysfs_wakeup:s0
+
 genfscon sysfs   /devices/platform/gpio-keys/wakeup                                          u:object_r:sysfs_wakeup:s0
+
+genfscon sysfs   /devices/virtual/thermal/thermal_zone0/temp                                 u:object_r:sysfs_thermal:s0
+genfscon sysfs   /devices/virtual/thermal/thermal_zone1/temp                                 u:object_r:sysfs_thermal:s0
