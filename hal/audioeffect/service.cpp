@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 The Android Open Source Project
+ * Copyright (C) 2023 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,11 +19,11 @@
 #include <hardware/audio_effect.h>
 #include <system/audio_effect.h>
 
-#include <android/hardware/audio/effect/4.0/IEffectsFactory.h>
+#include <android/hardware/audio/effect/5.0/IEffectsFactory.h>
 
 #include <hidl/LegacySupport.h>
 
-using android::hardware::audio::effect::V4_0::IEffectsFactory;
+using android::hardware::audio::effect::V5_0::IEffectsFactory;
 using android::hardware::defaultPassthroughServiceImplementation;
 
 int main() {
