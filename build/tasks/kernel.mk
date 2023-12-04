@@ -35,7 +35,7 @@ endif
 
 # ----------------------------------------------------------------------
 KERNEL_MAKE_JOBS            := `/usr/bin/nproc --ignore=3`
-KERNEL_CLANG                := /usr/bin/clang-10
+KERNEL_CLANG                := /usr/bin/clang-11
 KERNEL_MAKE                 := /usr/bin/make
 KERNEL_BUILD_TOOLS          := LEX=/usr/bin/flex YACC=/usr/bin/bison M4=/usr/bin/m4
 KERNEL_BUILD_TOOLS          += PERL=/usr/bin/perl LZ4=/usr/bin/lz4c

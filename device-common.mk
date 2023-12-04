@@ -17,9 +17,6 @@
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Adjust the dalvik heap to be appropriate for a tablet.
-$(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
-
 #
 PRODUCT_SHIPPING_API_LEVEL := 28
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
@@ -38,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.direct.interface=p2p-dev-wlan0 \
     wifi.supplicant_scan_interval=15
-    ro.boot.wificountrycode=UA
+    ro.boot.wificountrycode=US
 
 # Include mali blobs from ARM
 PRODUCT_PACKAGES += libGLES_mali

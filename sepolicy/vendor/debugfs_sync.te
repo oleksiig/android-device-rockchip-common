@@ -1,2 +1,0 @@
-
-allow debugfs_type { debugfs debugfs_sync }:filesystem associate;

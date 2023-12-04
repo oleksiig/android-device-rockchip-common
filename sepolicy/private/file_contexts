@@ -1,4 +1,0 @@
-
-/dev/stune(/.*)?                                                        u:object_r:cgroup:s0
-
-/system/bin/clean_scratch_files                                         u:object_r:clean_scratch_files_exec:s0
