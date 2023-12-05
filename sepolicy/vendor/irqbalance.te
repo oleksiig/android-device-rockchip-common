@@ -1,0 +1,8 @@
+type irqbalance, domain;
+type irqbalance_exec, vendor_file_type, exec_type, file_type;
+
+init_daemon_domain(irqbalance)
+
+allow irqbalance proc_interrupts:file { getattr open read };
+allow irqbalance proc:file { getattr open write };
+allow irqbalance proc_stat:file { getattr open read };

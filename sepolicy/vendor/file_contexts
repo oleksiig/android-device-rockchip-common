@@ -28,3 +28,5 @@
 /vendor/lib(64)?/hw/android.hardware.audio.effect@4.0-impl.so           u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/android.hardware.drm@1.0-impl.so                    u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/android.hardware.keymaster@3.0-impl.so              u:object_r:same_process_hal_file:s0
+
+/vendor/bin/irqbalance                                                  u:object_r:irqbalance_exec:s0
